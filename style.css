@@ -1,5 +1,6 @@
 *{
-    font-family: 'Brygada 1918', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
     margin: 0;
     padding: 0;
 }
@@ -7,9 +8,12 @@
 .container{
     width: 80%;
     max-width: 1440px;
-    margin: 0  auto;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+.top-margin{
     margin-top: 120px;
-    
 }
 .header-info{
     background-image: url('images/Banner\ Image.png');
@@ -49,9 +53,7 @@
     font-weight: 700;
     margin-bottom: 45px;
 }
-.off-section{
-    margin-top: 120px;
-}
+
 .off-description{
     color: #F00;
     text-align: center;
@@ -247,9 +249,7 @@ span{
 
 
 /* Best Gift Section */
-.gift-section{
-    margin: 120px 0;
-}
+
 
 .gift-info h4{
     color: #F00;
