@@ -91,6 +91,7 @@ p,h5,button{
     justify-content: space-between;
     align-items: center;
     padding: 0 100px;
+    border-radius: 15px;
 }
 .party-info{
     width: 50%;
@@ -216,6 +217,12 @@ span{
 }
 
 /* holiday section */
+.holiday-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .holiday-info h5{
     text-align: center;
@@ -245,22 +252,43 @@ span{
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
+    width: 50%;
+    margin-bottom: 50px;
+    
+     
+}
+.red-box{
     width: 100%;
-    display: flex;   
-}
-.box-person{
-    position: relative;
-}
-.box-person .box-img img{
-    position:absolute
-}
-.box-img{
-    position: absolute;
-    bottom: -50px;
+    border: 0px solid black;
     
 }
-
-
+.red-box img{
+    width: 100%;
+}
+.holiday-box{
+    position: relative;
+    height: 680px;
+}
+.box-1{
+    position:absolute;
+    bottom: 0;
+    z-index: 10;
+}
+.box-3{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box-4{
+    position: absolute;
+    bottom: 0;
+}
+.box-2{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    z-index: 10;
+}
 
 
 
