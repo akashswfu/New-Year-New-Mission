@@ -75,8 +75,12 @@ p,h5,button{
     margin-bottom: 50px;
 }
 .off-img{
+    width: 100%;
+    text-align: center;
+    
+}
+.off-img img{
     width: 50%;
-    margin: auto auto;
 }
 
 /* welcome to midnight party section */
